@@ -1,6 +1,7 @@
 import 'package:generic_validator/src/rule/validation_rule.dart';
 import 'package:generic_validator/src/validator/validator_base.dart';
 
+/// Several common rules that operate on strings.
 mixin StringRules<Y> on ValidatorBase<String, Y> {
   ValidationRule<String, dynamic> notEmpty<U>({required U negativeFeedback}) {
     return ValidationRule<String, U>(

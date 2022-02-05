@@ -10,7 +10,7 @@ import '../validation_result.dart';
 /// [U] being the type of your negative feedback.
 ///
 /// ```dart
-/// class NameValidator extends Validator<String, String> {
+/// class NameValidator extends AsyncValidator<String, String> {
 ///
 ///  @override
 ///  List<ValidationRule<String, String>> get rules => [

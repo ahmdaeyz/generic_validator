@@ -1,5 +1,4 @@
 import 'package:generic_validator/src/rule/validation_rule.dart';
-import 'package:generic_validator/src/rule/validation_rule_base.dart';
 import 'package:generic_validator/src/validator/validator_base.dart';
 
 import '../validation_result.dart';
@@ -39,7 +38,4 @@ abstract class Validator<T, U> extends ValidatorBase<T, ValidationResult<U>> {
 
     return ValidationResult.valid();
   }
-
-  @override
-  List<Object?> get props => [rules];
 }

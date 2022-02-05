@@ -1,0 +1,17 @@
+# Files and directories created by pub.
+.dart_tool/
+.packages
+# Conventional directory for build outputs.
+build/
+
+# Omit committing pubspec.lock for library packages; see
+# https://dart.dev/guides/libraries/private-files#pubspeclock.
+pubspec.lock
+
+# Files and directories created by test_coverage
+test/.test_coverage.dart
+coverage/
+coverage_badge.svg
+
+#IDE
+.history/

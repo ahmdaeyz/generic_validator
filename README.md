@@ -1,3 +1,6 @@
+[![pub package](https://img.shields.io/pub/v/generic_validator.svg)](https://pub.dev/packages/generic_validator)
+[![likes](https://badges.bar/generic_validator/likes)](https://pub.dev/packages/generic_validator/score)
+
 This package provides APIs to facilitate separating validation and business rules from the application presentation.
 
 ## Features
